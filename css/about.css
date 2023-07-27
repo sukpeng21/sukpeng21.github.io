@@ -1,0 +1,360 @@
+body{
+    margin:0%;
+    font-family: 'Inter', sans-serif;
+}
+.barline{
+    display:flex;
+    padding: 2% 2%;
+    background-color: black;
+    justify-content: space-between;
+}
+#logo{
+    width:20%;
+    padding: 5px 5px;
+}
+#menu{
+    display: flex;
+    align-items: center;
+    padding: 0px 5px;
+    font-family: 'Inter:wght@100;600;900', sans-serif;
+}
+.topnav {
+    overflow: hidden;
+    background-color: #000000;
+    display:flex;
+    flex-wrap: wrap;
+}
+.topnav a {
+    color: #f2f2f2;
+    text-align: center;
+    padding: 0px 20px;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+}
+#title{
+    background-color: #ECECEC;
+    font-style: italic;
+    font-family: 'Inter:wght@100;200;300;500;600;700', sans-serif;
+    font-weight: 850;
+    font-size: 38px;
+    text-align: center;
+    padding: 3.2%;
+}
+#bodycontent{
+    margin: 5% 5% 1% 5%;
+    display: flex;
+}
+.imagetext{
+    padding: 0px 55px;
+    font-family: 'Inter:wght@100;200;300;500;600;700', sans-serif;
+    font-weight: 700;
+    font-size: 31px;
+}
+#leftcontent{
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+}
+#rightcontent{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 1.9% 0px;
+}
+#content1{
+    border-right: 2px solid;
+}
+#dreampart{
+    padding:25px 25px 0 25px;
+}
+#dreamtitle{
+    display: flex;
+    align-items: center;
+}
+#dreampara{
+    padding: 8% 0px;
+    line-height: 1.8;
+    width: 95%;
+    border-bottom: 1px solid;
+    font-size: 19px;
+}
+#content2{
+    border-right: 2px solid;
+    margin: 3% 0 0 0;
+}
+#hobbypart{
+    padding: 60px 25px 25px 25px;
+}
+#hobbytitle{
+    display: flex;
+    align-items: center;
+}
+#hobbypara{
+    padding: 10% 0px;
+    line-height: 1.2;
+    width: 90%;
+    border-bottom: 1px solid;
+    font-size: 19px;
+}
+.blue{
+    color: #103A79;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    line-height: 1;
+}
+.hobbygroup{
+    padding:5px 0px;
+}
+#content3{
+    border-right: 2px solid;
+}
+#activitypart{
+    padding: 25px;
+}
+#activitytitle{
+    display: flex;
+    align-items: center;
+}
+#activitypara{
+    padding: 10% 0px;
+    line-height: 1.2;
+    width: 90%;
+    font-size: 19px;
+}
+.activitygroup{
+    padding: 10px 0px;
+}
+#imagetext{
+    padding: 0px 35px;
+    font-family: 'Inter:wght@100;200;300;500;600;700', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+}
+#profilepart{
+    padding: 0px 6%;
+}
+#profiletitle{
+    display: flex;
+    align-items: center;
+    padding: 0 0 3% 0;
+}
+#profilepara{
+    font-size:18px;
+    width: 100%;
+    font-size: 19px;
+}
+#inoneline{
+    display: flex;
+    padding: 20px;
+    flex-wrap: wrap;
+    width:100%;
+    font-family: 'Inter', sans-serif;
+}
+#profilegroup1{
+    display: flex;
+    flex-direction: column;
+    line-height: 0.3;
+    padding: 0 18% 0 0;
+}
+#profilegroup2{
+    display: flex;
+    flex-direction: column;
+    line-height: 0.3;
+    padding: 0 18% 0 0;
+}
+#profilegroup3{
+    display: flex;
+    flex-direction: column;
+    line-height: 0.3;
+}
+#inoneline2{
+    display: flex;
+    border-bottom: 1px solid;
+    padding: 8.5% 0px;
+     width:100%;
+    flex-wrap: nowrap;
+}
+#profilegroup4{
+    display: flex;
+    flex-direction: column;
+    line-height: 0.3;
+    padding: 0px 25% 0px 0px;
+}
+#profilegroup5{
+    display: flex;
+    flex-direction: column;
+}
+.profilegrey{
+    color: #585757;
+    line-height: 0.9;
+}
+.importantcontent{
+    font-weight: 430;
+    font-size: 19px;
+    margin: 0;
+}
+#educationpart{
+    padding: 5% 8%;
+}
+#educationtitle{
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
+}
+#educationpara{
+    padding: 7% 0px;
+    line-height: 0.5;
+    font-size: 19px;
+    border-bottom: 1px solid;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: column;
+    font-weight: 400;
+}
+.edugroup{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.edugrouppara{
+    padding:15px 0px;
+    line-height: 1;
+}
+.edugrey{
+    color:#5C5A5A;
+    font-size:15px;
+}
+.edusubject{
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+}
+.collage{
+    color:#5C5A5A;
+}
+#footer{
+    background-color: black;
+    padding: 5% 40px;
+    text-align: center;
+}
+.icon a{
+    padding: 0px 20px;
+    color:black;
+}
+#footertex{
+    color: white;
+    padding: 35px 0px 0px 0px;
+    font-family: 'Inter:wght@100;200;300;500;600;700', sans-serif;
+}
+
+@media only screen and (max-width: 1051px){
+    .imagetext{
+        padding: 0px 40px;
+    }
+}
+@media only screen and (max-width: 920px){
+    .topnav{
+        display: flex;  
+    }
+    .imagetext{
+        padding: 0px 25px;
+        font-size: 30px;
+    }
+    #leftcontent{
+        width: 80%;
+    }
+}
+@media only screen and (max-width: 815px){
+    .logo{
+        width: 50%;
+    }
+    .topnav{
+        display: flex;  
+
+    }
+    #leftcontent{
+        width: 80%;
+    }
+    .img{
+        width:4%;
+    }
+    #menu{
+        width:100%;
+    }
+}
+@media only screen and (max-width: 754px){
+    .logo{
+        width: 50%;
+    }
+    #menu{
+        width:100%;
+    }
+    .topnav{
+        display: flex;  
+        width: 100%;
+    }
+    .topnav a{
+        padding: 0 3%;
+    }
+    #bodycontent{
+        display: flex;
+        flex-direction: column;
+    }
+    #leftcontent {
+        width: 100%;
+    }
+    #content1{
+        border:none;
+    }
+    #content2{
+        border:none;
+    }
+    #content3{
+        border:none;
+    }
+    .img{
+        width:4%;
+    }
+    #activitypara{
+        padding: 10% 6%;
+    }
+    #hobbypara{
+        padding: 10% 6%;
+    }
+    #dreampara{
+        padding: 10% 6%;
+    }
+    #dreamtitle{
+        padding: 0 25px;
+    }
+    #hobbytitle{
+        padding: 0 25px;
+    }
+    #profiletitle{
+        padding: 0 0 3% 2%;
+    }
+    #activitypara{
+        border-bottom: 1px solid;
+    }
+    #educationpara{
+        padding: 5% 5%;
+    }
+}
+@media only screen and (max-width: 652px){
+    .logo{
+        width:50%;
+    }
+    #menu{
+        padding:0%;
+        font-size:13px;
+        width: 100%;
+    }
+    .img{
+        width:5%;
+    }
+    .topnav a{
+        padding: 2% 3%;
+    }
+}
