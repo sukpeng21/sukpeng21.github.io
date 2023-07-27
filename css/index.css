@@ -240,12 +240,8 @@ p.para{
         h2.covertext{
             font-size: 20px;
         }
-        #logo{
-            width: 60%;
-            padding: 5px 5px;
-            text-align: center;
-            display: flex;
-            align-items: center;
+        .logo{
+            width:50%;
         }
         #menu{
             font-size:12px;
