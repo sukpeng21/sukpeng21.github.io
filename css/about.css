@@ -357,4 +357,11 @@ body{
     .topnav a{
         padding: 2% 3%;
     }
+    #inoneline2{
+        display: flex;
+        border-bottom: 1px solid;
+        padding: 8.5% 0px;
+        width: 100%;
+        flex-wrap: wrap;
+    }
 }
