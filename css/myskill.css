@@ -212,4 +212,7 @@ body{
     .topnav a{
         padding: 2% 3%;
     }
+    #footer{
+        padding: 10% 40px 5%;
+    }
 }
