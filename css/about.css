@@ -376,4 +376,16 @@ body{
     .topnav a{
         padding: 2% 3%;
     }
+    #profilegroup4 {
+        display: flex;
+        flex-direction: column;
+        line-height: 0.3;
+        padding: 0px 25% 20px 0px;
+    }
+    #profilegroup1 {
+        display: flex;
+        flex-direction: column;
+        line-height: 0.3;
+        padding: 0 18% 15px 0;
+    }
 }
