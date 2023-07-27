@@ -17,6 +17,7 @@ body{
     padding: 0px 5px;
     font-family: 'Inter:wght@100;600;900', sans-serif;
 }
+
 .topnav {
     overflow: hidden;
     background-color: #000000;
@@ -110,7 +111,7 @@ p.para{
 }
 #footer{
     background-color: black;
-    padding: 5% 40px;
+    padding: 5% 40px 50px 0;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -121,9 +122,12 @@ p.para{
 }
 #footertex{
     color: white;
+    display: flex;
+    justify-content: center;
     padding: 35px 0px 0px 0px;
     font-family: 'Inter:wght@100;200;300;500;600;700', sans-serif;
 }
+
 @media only screen and (max-width: 1100px) {
     h2.covertext{
         font-size: 50px;
@@ -139,6 +143,17 @@ p.para{
     }
 }
 @media only screen and (max-width: 761px){
+    .topnavleft{
+        display: flex;
+        width: 100%;
+        padding: 20px 0 0 0;
+    }
+    .topnavright{
+        display: flex;
+        width: 100%;
+        padding: 15px 0 15px 100px;
+        justify-content: flex-end;
+    }
     #menu{
         width: 100%;
         justify-content: flex-end;
@@ -171,7 +186,7 @@ p.para{
         width: 80%;
     }
     .img{
-        width:4%;
+        width:6%;
     }
     #barline{
         width: 100%;
@@ -179,8 +194,16 @@ p.para{
     #ownpic{
         padding:0%
     }
+    #footer{
+        padding: 9% 40px 5%;
+    }
+    .button {
+        position: absolute;
+        right: 8%;
+        bottom: 5%;
+        font-family: 'Inter', sans-serif;
+    }
 }
-
     @media only screen and (max-width: 740px){
         #menu{
             display: flex;
@@ -198,15 +221,24 @@ p.para{
             width: 50%;
         }
         .img{
-            width:4%;
+            width:8%;
+        }
+        #footer{
+            padding: 9% 40px 5%;
+        }
+        #footertex{
+            color: white;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
         }
     }
     @media only screen and (max-width: 590px){
-        .img{
-            width:6%;
+        .img
+            width:8%;
         }
         h2.covertext{
-            font-size: 30px;
+            font-size: 25px;
         }
         #menu{
             font-size:12px;
@@ -225,5 +257,8 @@ p.para{
         }
         #shortintro{
             padding: 0px 0 35px 15px;
+        }
+        #footer{
+            padding: 9% 40px 5%;
         }
     }

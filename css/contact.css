@@ -119,6 +119,9 @@ body{
     font-family: 'Inter:wght@100;200;300;500;600;700', sans-serif;
 }
 @media only screen and (max-width: 746px){
+    .img{
+        width:6%;
+    }
     .logo{
         width: 50%;
     }
@@ -143,7 +146,7 @@ body{
         width: 100%;
     }
     .img{
-        width:5%;
+        width:6%;
     }
     .topnav a{
         padding: 2% 3%;

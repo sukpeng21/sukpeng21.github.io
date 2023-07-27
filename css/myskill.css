@@ -57,10 +57,12 @@ body{
 .bordertext{
     width: 100%;
     border-bottom: 1px solid;
-    line-height: 0.1em;
+    line-height: 0.1cm;
     margin: 10px 0 20px;
     font-size: 22px;
+    letter-spacing: 3px;
 }
+
 .bordertext span { 
     background:#fff; 
     padding:0 10px; 
@@ -96,7 +98,7 @@ body{
     font-size: 20px;
 }
 .progressbar{
-    height: 6px;
+    height: 10px;
     background: #E1DDDD;
     margin: 0 0 0 40px;
     border-radius: 8px;
@@ -139,6 +141,17 @@ body{
     font-family: 'Inter:wght@100;200;300;500;600;700', sans-serif;
 }
 @media only screen and (max-width: 746px){
+    .topnavleft{
+        display: flex;
+        width: 100%;
+        padding: 20px 0 0 0;
+    }
+    .topnavright{
+        display: flex;
+        width: 100%;
+        padding: 15px 0 15px 100px;
+        justify-content: flex-end;
+    }
     .logo{
         width: 50%;
     }
@@ -152,6 +165,17 @@ body{
     .topnav a{
         padding: 0 3%;
     }
+    .progressbar {
+        margin:0;
+    }
+    .progresspart {
+        width: 80%;
+        padding: 10px 0 50px 60px;
+        font-size: 20px;
+    }
+    .img{
+        width:8%;
+    }
 }
 @media only screen and (max-width: 652px){
     .logo{
@@ -163,7 +187,7 @@ body{
         width: 100%;
     }
     .img{
-        width:5%;
+        width:8%;
     }
     .topnav a{
         padding: 2% 3%;
