@@ -44,14 +44,12 @@ body{
 #body{
     font-family: 'Inter', sans-serif;
 }
-* {
-    box-sizing: border-box;
-  }
-  
+
   /* The actual content */
 .bodycontent {
     position: relative;
     line-height:1;
+    padding: 0 35px;
 }
   
 .date{
@@ -75,8 +73,7 @@ body{
   /* The actual timeline (the vertical ruler) */
 .timeline {
     position: relative;
-    max-width: 1200px;
-    margin: 0 auto;
+    margin: 0;
     padding: 10%;
 }
   
@@ -94,7 +91,7 @@ body{
   
   /* Container around content */
 .container {
-    padding: 1px 40px 100px 40px;
+    padding: 1px 2px 100px 2px;
     position: relative;
     width: 50%;
 }
@@ -105,17 +102,17 @@ body{
     position: absolute;
     width: 10px;
     height: 10px;
-    right: -4px;
-    background:black;
+    background: black;
     border: 1px solid;
     top: 15px;
     border-radius: 50%;
-    z-index: 1;
+    margin: 3% 0%;
 }
   
   /* Place the container to the left */
 .left {
-    text-align:right;
+    text-align: right;
+    left: 0;
 }
   
   /* Place the container to the right */
@@ -123,38 +120,13 @@ body{
     left: 50%;
     text-align:left;
 }
-  
-  /* Add arrows to the left container (pointing right) */
-.left::before {
-    content: " ";
-    height: 0;
-    position: absolute;
-    top: 22px;
-    width: 0;
-    right: 15px;
-    background:black;
-    border-width: 10px 0 10px 10px;
-    border-color: transparent transparent transparent white;
-    text-align:right;
-}
-  
-  /* Add arrows to the right container (pointing left) */
-.right::before {
-    content: " ";
-    height: 0;
-    position: absolute;
-    top: 22px;
-    width: 0;
-    z-index: 1;
-    left: 10px;
-    border: medium solid white;
-    border-width: 10px 10px 10px 0;
-    border-color: transparent white transparent transparent;
+.left::after {
+    right: 0;
 }
   
   /* Fix the circle for containers on the right side */
 .right::after {
-       left: -8px;
+    left: -8px;
 }
 #footer{
     background-color: black;
