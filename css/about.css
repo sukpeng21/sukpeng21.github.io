@@ -357,6 +357,22 @@ body{
     .topnav a{
         padding: 2% 3%;
     }
+}
+@media only screen and (max-width: 450px){
+    .logo{
+        width:50%;
+    }
+    #menu{
+        padding:0%;
+        font-size:13px;
+        width: 100%;
+    }
+    .img{
+        width:5%;
+    }
+    .topnav a{
+        padding: 2% 3%;
+    }
     #inoneline2{
         display: flex;
         border-bottom: 1px solid;
