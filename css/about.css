@@ -341,6 +341,13 @@ body{
     #educationpara{
         padding: 5% 5%;
     }
+    #inoneline2{
+        display: flex;
+        border-bottom: 1px solid;
+        padding: 8.5% 0px;
+        width: 100%;
+        flex-wrap: wrap;
+    }
 }
 @media only screen and (max-width: 652px){
     .logo{
@@ -356,28 +363,5 @@ body{
     }
     .topnav a{
         padding: 2% 3%;
-    }
-}
-@media only screen and (max-width: 450px){
-    .logo{
-        width:50%;
-    }
-    #menu{
-        padding:0%;
-        font-size:13px;
-        width: 100%;
-    }
-    .img{
-        width:5%;
-    }
-    .topnav a{
-        padding: 2% 3%;
-    }
-    #inoneline2{
-        display: flex;
-        border-bottom: 1px solid;
-        padding: 8.5% 0px;
-        width: 100%;
-        flex-wrap: wrap;
     }
 }
