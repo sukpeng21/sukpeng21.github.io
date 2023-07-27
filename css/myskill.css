@@ -113,7 +113,7 @@ body{
 .progresstext{
     position: absolute;
     right: 0%;
-    bottom: 250%;
+    bottom: 100%;
 }
 .progressline60{
     width: 60%;
