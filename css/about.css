@@ -273,8 +273,12 @@ body{
     }
 }
 @media only screen and (max-width: 815px){
-    .logo{
+    #logo{
         width: 50%;
+        padding: 5px 5px;
+        text-align: center;
+        display: flex;
+        align-items: center;
     }
     .topnav{
         display: flex;  
@@ -301,13 +305,6 @@ body{
         width: 100%;
         padding: 15px 0 15px 100px;
         justify-content: flex-end;
-    }
-    .logo{
-        width: 50%;
-        padding: 5px 5px;
-        text-align: center;
-        display: flex;
-        align-items: center;
     }
     #menu{
         width:100%;
@@ -392,8 +389,12 @@ body{
     }
 }
 @media only screen and (max-width: 652px){
-    .logo{
-        width:50%;
+    #logo{
+        width: 50%;
+        padding: 5px 5px;
+        text-align: center;
+        display: flex;
+        align-items: center;
     }
     #menu{
         padding:0%;

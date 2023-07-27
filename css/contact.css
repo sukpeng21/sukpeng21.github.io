@@ -122,9 +122,13 @@ body{
     padding: 35px 0px 0px 0px;
     font-family: 'Inter:wght@100;200;300;500;600;700', sans-serif;
 }
-@media only screen and (max-width: 746px){
-    .logo{
+@media only screen and (max-width: 830px){
+    #logo{
         width: 50%;
+        padding: 5px 5px;
+        text-align: center;
+        display: flex;
+        align-items: center;
     }
     #menu{
         width:100%;
@@ -150,6 +154,7 @@ body{
         padding: 15px 0 15px 100px;
         justify-content: flex-end;
     }
+    
     #footer{
         padding: 9% 40px 5%;
     }
@@ -161,7 +166,7 @@ body{
     }
 }
 @media only screen and (max-width: 690px){
-    .logo{
+    #logo{
         width: 50%;
         padding: 5px 5px;
         text-align: center;
