@@ -80,6 +80,30 @@ body{
     margin: 0 15%;
     font-size: 20px;
 }
+.phonenumber{
+    overflow: hidden;
+    padding: 5% 0px;
+}
+.phonenumber a{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 0px 20px;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+}
+.emailaddress{
+    overflow: hidden;
+    padding: 5% 0px;
+}
+.emailaddress a{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 0px 20px;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+}
 #footer{
     background-color: black;
     padding: 5% 40px;
