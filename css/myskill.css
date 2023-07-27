@@ -83,9 +83,10 @@ body{
     position: absolute;
     left: -2.8%;
     top: 35%;
+    width: 5%;
 }
 .paraspace{
-    padding: 15px 20px 15px 25px;
+    padding: 20px 20px 25px 45px;
 }
 #paraspace{
     padding: 20px 0 15px 35px;
@@ -171,6 +172,9 @@ body{
     .topnav a{
         padding: 0 3%;
     }
+    .paraspace {
+        padding: 20px 25px;
+    }
     .progressbar {
         margin:0;
     }
@@ -207,7 +211,7 @@ body{
         width: 100%;
     }
     .img{
-        width:8%;
+        width:9%;
     }
     .topnav a{
         padding: 2% 3%;
